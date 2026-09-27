@@ -24,9 +24,9 @@ Cuando tengas el dominio propio, cambia `og:image` en `index.html` a la URL comp
 
 ## Pendientes
 
-Los datos que faltan están marcados en la página con etiquetas punteadas (`[PENDIENTE]`, `[CONFIRMAR]`, `[PRECIO POR DEFINIR]`):
+Los datos que faltan están marcados en la página con etiquetas punteadas (`[PENDIENTE]`, `[CONFIRMAR]`):
 
-- Precios y detalles de cada paquete
+- Detalles de cada paquete
 - Enlaces "Ver página" de cada proyecto (ahora apuntan a `#`)
 - Resultados de campañas en la pestaña "Redes y contenido" (solo si hay datos reales)
 - Testimonios reales: los tres actuales son de muestra y deben reemplazarse antes de publicar
