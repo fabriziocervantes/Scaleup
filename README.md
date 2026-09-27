@@ -29,6 +29,5 @@ Los datos que faltan están marcados en la página con etiquetas punteadas (`[PE
 
 - Resultados de campañas en la pestaña "Redes y contenido" (solo si hay datos reales)
 - Testimonios reales: los tres actuales son de muestra y deben reemplazarse antes de publicar
-- Respuestas pendientes en preguntas frecuentes (tiempos, formas de pago, presupuesto de anuncios)
 - Aviso de privacidad (`aviso-de-privacidad.html`): falta confirmar si habrá envíos promocionales. Conviene que lo revise un abogado antes de publicar
 - Versión horizontal del logo para el encabezado (hoy se usa la versión apilada)
