@@ -5,6 +5,7 @@ Landing de una sola página para Scale Up Digital. Sitio estático (HTML, CSS y 
 ## Estructura
 
 - `index.html` — contenido de la página (todas las secciones)
+- `aviso-de-privacidad.html` — aviso de privacidad
 - `styles.css` — estilos (colores de marca en variables al inicio)
 - `main.js` — menú móvil, pestañas de proyectos, preguntas frecuentes, formulario a WhatsApp y animación al hacer scroll
 - `assets/` — logo y capturas optimizadas (WebP)
@@ -30,5 +31,6 @@ Los datos que faltan están marcados en la página con etiquetas punteadas (`[PE
 - Resultados de campañas en la pestaña "Redes y contenido" (solo si hay datos reales)
 - Testimonios reales: los tres actuales son de muestra y deben reemplazarse antes de publicar
 - Respuestas pendientes en preguntas frecuentes (tiempos, formas de pago, presupuesto de anuncios, ciudades)
-- Ciudades donde atienden y aviso de privacidad
+- Ciudades donde atienden
+- Aviso de privacidad (`aviso-de-privacidad.html`): falta el nombre o razón social del responsable y el domicilio, y confirmar si habrá envíos promocionales. Conviene que lo revise un abogado antes de publicar
 - Versión horizontal del logo para el encabezado (hoy se usa la versión apilada)
