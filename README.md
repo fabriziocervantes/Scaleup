@@ -27,7 +27,7 @@ Cuando tengas el dominio propio, cambia `og:image` en `index.html` a la URL comp
 Los datos que faltan están marcados en la página con etiquetas punteadas (`[PENDIENTE]`, `[CONFIRMAR]`, `[PRECIO POR DEFINIR]`):
 
 - Precios y detalles de cada paquete
-- Enlaces "Ver página" de cada proyecto (ahora apuntan a `#`) y la ciudad de Mamba Auto Lab
+- Enlaces "Ver página" de cada proyecto (ahora apuntan a `#`)
 - Contenido de la pestaña "Redes y contenido" (reels, fotos, gráficos) y resultados de campañas
 - Testimonios reales: los tres actuales son de muestra y deben reemplazarse antes de publicar
 - Respuestas pendientes en preguntas frecuentes (tiempos, formas de pago, presupuesto de anuncios, ciudades)
