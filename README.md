@@ -32,5 +32,5 @@ Los datos que faltan están marcados en la página con etiquetas punteadas (`[PE
 - Testimonios reales: los tres actuales son de muestra y deben reemplazarse antes de publicar
 - Respuestas pendientes en preguntas frecuentes (tiempos, formas de pago, presupuesto de anuncios, ciudades)
 - Ciudades donde atienden
-- Aviso de privacidad (`aviso-de-privacidad.html`): falta el nombre o razón social del responsable y el domicilio, y confirmar si habrá envíos promocionales. Conviene que lo revise un abogado antes de publicar
+- Aviso de privacidad (`aviso-de-privacidad.html`): falta confirmar si habrá envíos promocionales. Conviene que lo revise un abogado antes de publicar
 - Versión horizontal del logo para el encabezado (hoy se usa la versión apilada)
