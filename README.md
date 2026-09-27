@@ -27,7 +27,6 @@ Cuando tengas el dominio propio, cambia `og:image` en `index.html` a la URL comp
 
 Los datos que faltan están marcados en la página con etiquetas punteadas (`[PENDIENTE]`, `[CONFIRMAR]`):
 
-- Detalles de cada paquete
 - Resultados de campañas en la pestaña "Redes y contenido" (solo si hay datos reales)
 - Testimonios reales: los tres actuales son de muestra y deben reemplazarse antes de publicar
 - Respuestas pendientes en preguntas frecuentes (tiempos, formas de pago, presupuesto de anuncios)
