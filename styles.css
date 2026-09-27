@@ -45,7 +45,6 @@ button, input, select { font-family: inherit; }
   white-space: nowrap;
 }
 .tag--dark { border-color: var(--cyan); color: var(--cyan); }
-.tag--md { font-size: 12px; padding: 3px 8px; white-space: normal; }
 
 /* Buttons */
 .btn {
@@ -217,11 +216,23 @@ section[id] { scroll-margin-top: var(--header-h); }
 .media video { aspect-ratio: 16/9; background: var(--navy); }
 .media img { aspect-ratio: 2/3; object-fit: cover; }
 .media figcaption { font-size: 14px; color: var(--text-2); }
-.results-box {
-  background: #fff; border: 1px dashed #9FB3C8; border-radius: 16px; padding: 22px 24px;
-  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px;
-  font-size: 16px; font-weight: 500;
-}
+.results { display: flex; flex-direction: column; gap: 20px; margin-top: 20px; padding-top: 32px; border-top: 1px solid var(--line); }
+.results__head { display: flex; flex-direction: column; gap: 6px; }
+.results__head h3 { font-size: 22px; font-weight: 700; letter-spacing: -0.01em; }
+.results__head p { font-size: 15px; color: var(--text-2); }
+.results__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%,280px),1fr)); gap: 20px; }
+.result { background: #fff; border-radius: 18px; overflow: hidden; display: flex; flex-direction: column; box-shadow: var(--shadow-card); }
+.result__media { position: relative; }
+.result__media img { display: block; width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; background: #E9EFF5; }
+.result__badge { position: absolute; left: 14px; bottom: 14px; background: var(--navy); color: var(--cyan); font-size: 13px; font-weight: 700; padding: 6px 12px; border-radius: 999px; }
+.result__body { padding: 20px 22px 22px; display: flex; flex-direction: column; gap: 16px; }
+.result__post { font-size: 14px; color: var(--text-2); }
+.result__stats { margin: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.result__stats div { display: flex; flex-direction: column-reverse; gap: 2px; }
+.result__stats dt { font-size: 12px; color: var(--text-2); line-height: 1.3; }
+.result__stats dd { margin: 0; font-size: 22px; font-weight: 700; letter-spacing: -0.02em; }
+.result__stats div:first-child dd { color: var(--cyan-deep); }
+.results__note { font-size: 13px; color: var(--text-2); }
 
 /* ---------- Proceso ---------- */
 .steps { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%,230px),1fr)); gap: clamp(28px,3vw,40px); }
