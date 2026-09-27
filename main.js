@@ -54,6 +54,16 @@
     window.open(`${WA}?text=${encodeURIComponent(msg)}`, '_blank', 'noopener');
   });
 
+  // Portfolio videos play muted only while on screen
+  const videos = document.querySelectorAll('.media video');
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+    const vio = new IntersectionObserver((entries) => entries.forEach((entry) => {
+      if (entry.isIntersecting) entry.target.play().catch(() => {});
+      else entry.target.pause();
+    }), { threshold: 0.5 });
+    videos.forEach((v) => vio.observe(v));
+  }
+
   document.getElementById('year').textContent = new Date().getFullYear();
 
   // Fade-in on scroll for sections that start below the fold
